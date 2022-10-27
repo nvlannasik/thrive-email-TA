@@ -1,0 +1,19 @@
+{
+  "name": "service-email",
+  "version": "1.0.0",
+  "description": "Ini merupakan service email",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "confidence": "^5.0.1",
+    "dotenv": "^16.0.3",
+    "nodemailer": "^6.8.0",
+    "winston": "^3.8.2",
+    "winston-fast-rabbitmq": "^2.2.0"
+  }
+}
